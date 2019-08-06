@@ -12,7 +12,7 @@ import java.util.List;
 @Controller
 public class WelcomeController {
 
-    // inject via application.properties test
+    // inject via application.properties test1
     @Value("${welcome.message}")
     private String message;
 
